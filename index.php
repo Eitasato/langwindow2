@@ -31,6 +31,7 @@
                 </article>
                 <!--仕事メニューのリスト-->
 				        <!--contents-->
+    <div itemscope itemtype="http://schema.org/mainContentOfPage">
         <div id="contents">
 		<!--blogs -->
 			<section class="container">
@@ -38,7 +39,7 @@
 			<div class ="blog">
 			<h3>ブログ</h3>
 			<p>どのようなことを考えて仕事に取り組んでいるのか、上記の得意を組み合わせて携わった業務、過去にいただいた質問への回答などを書いています。ご依頼の仕方や実際の業務のススメ方などを浮かべることにお役立て下さい。</p>
-			</div>	
+			</div>
 			</article>
 				<div class="row row-cols-1 row-cols-md-3">
 					<?php if(have_posts()): ?>
@@ -52,15 +53,16 @@
 								<p style="clear: right" class="card-text"><?php the_excerpt(); ?></p>
 								<span style="float:right"><a href="<?php the_permalink(); ?>" class="card-link">この記事を読む</a></span>
 							</div>
-						</div>	
-				</div>	
+						</div>
+				</div>
 		<?php endwhile; ?>
 		<?php endif; ?>
-				</div>		
+				</div>
 		</section>
 		<!--/news -->
         </div>
-        <!--/contents-->		
+    </div>
+        <!--/contents-->
 
             </div>
             <!--/メイン-->
