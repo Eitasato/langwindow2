@@ -22,6 +22,21 @@ header h1{
 
 }
 
+header h2{
+  color:#313131; /*文字色の変更*/
+  /*font-weight:400;*/ /*文字の太さの変更*/
+  margin-top:24px;
+  margin-left:16px;
+}
+
+header p{
+  color:#313131; /*文字色の変更*/
+  /*font-weight:400;*/ /*文字の太さの変更*/
+  margin-top:8px;
+  margin-left:16px;
+}
+
+
 #top_image{
     width: 980px;
     margin: 0 auto;
@@ -41,14 +56,16 @@ header h1{
     list-style: none;
     margin: 0;
     padding: 0;
+    display:flex;
 
 }
 
 #global_navi ul li{
     width: 195px;
-    float: left;
+    /*float: left;*/
     margin-right: 1px;
     text-align: center;
+    	flex: 1 0 auto;
 
 }
 
@@ -391,6 +408,7 @@ table td{
 
 footer{
     text-align: center;
+    margin-top:16px;
 }
 
 footer #footer_nav ul{
