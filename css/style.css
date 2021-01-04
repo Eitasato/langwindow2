@@ -56,8 +56,7 @@ header p{
     list-style: none;
     margin: 0;
     padding: 0;
-    display:flex;
-
+	display:flex;
 }
 
 #global_navi ul li{
@@ -65,8 +64,7 @@ header p{
     /*float: left;*/
     margin-right: 1px;
     text-align: center;
-    	flex: 1 0 auto;
-
+	flex: 1 0 auto;
 }
 
 #wrapper {
@@ -125,7 +123,7 @@ header p{
 
 
 .alignleft {
-	display: block;	
+	display: block;
 	float: left;
 	margin-right: 15px;
 	margin-bottom:1em;
@@ -143,7 +141,7 @@ header p{
 	margin-bottom: 1em;
 }
 
-/*記事欄のスタイル*/	
+/*記事欄のスタイル*/
 
 #main article.single-post{
 	border: 1px solid ;
@@ -156,8 +154,8 @@ header p{
 #main article.single-post h3{
 	text-align:left
 }
-	
-/*/記事欄のスタイル*/	
+
+/*/記事欄のスタイル*/
 
 
 /*news*/
@@ -408,7 +406,7 @@ table td{
 
 footer{
     text-align: center;
-    margin-top:16px;
+	margin-top:16px;
 }
 
 footer #footer_nav ul{
@@ -518,11 +516,14 @@ justify-content: space-between;
     padding: 0;
     margin: 0;
   }
- #contents{
-	max-width: 100%;
-	display: block;	 
+  #main section.description{
+		padding:0 5%;
 	}
-	
+  #contents{
+	max-width: 100%;
+	display: block;
+	}
+
 /*/トップページのメインエリア*/
 
 /*トップ以外のメインエリア*/
@@ -530,6 +531,10 @@ justify-content: space-between;
 #other{
   padding: 0;
 }
+
+#other section.description{
+	padding:0 5%;
+	}
 #other div.menu{
   max-width: 100%;
 }
@@ -552,10 +557,10 @@ justify-content: space-between;
 #other div.price_item h4{
   margin-top: 1.5em;
 }
-	
-	
+
+
 /*/トップ以外のメインエリア*/
-	
+
  #sidebar{
    padding: 0;
  }
@@ -580,7 +585,7 @@ justify-content: space-between;
     width:100%;
   }
 
-/*ハンバーガメニュー*/	
+/*ハンバーガメニュー*/
 #nav-drawer {
   position: relative;
   /*display: flex;*/
@@ -658,7 +663,7 @@ justify-content: space-between;
   transform: translateX(0%);/*中身を表示（右へスライド）*/
   box-shadow: 6px 0 25px rgba(0,0,0,.15);
 }
-	
+
 /*お問い合わせフォーム*/
 
 #contact p{
