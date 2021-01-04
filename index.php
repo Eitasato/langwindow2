@@ -7,7 +7,7 @@
             <div id="main">
                 <!--仕事メニューのリスト-->
                 <article>
-                  <section>
+                  <section class="description">
                     <h3>得意なこと</h3>
                     <p>言語化相談窓口では、ヒアリング・ライティング・コーチングのスキルを組み合わせてお仕事をします。未だ発見できていない課題や可能性を発掘し、個人や組織の成長をお手伝いします。</p>
                   </section>
@@ -31,7 +31,6 @@
                 </article>
                 <!--仕事メニューのリスト-->
 				        <!--contents-->
-    <div itemscope itemtype="http://schema.org/mainContentOfPage">
         <div id="contents">
 		<!--blogs -->
 			<section class="container">
@@ -61,7 +60,6 @@
 		</section>
 		<!--/news -->
         </div>
-    </div>
         <!--/contents-->
 
             </div>
