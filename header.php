@@ -18,8 +18,6 @@
 				<input id="nav-input" type="checkbox" class="nav-unshown">
 				<label id="nav-open" for="nav-input"><span></span></label>
 				<label class="nav-unshown" id="nav-close" for="nav-input"></label>
-				<h2>言語化相談窓口</h2>
-				<p>個人や組織の成長を「言葉の力」によって支援します。</p>
 				<div id="nav-content">
 					
 						<?php wp_nav_menu(
@@ -45,7 +43,10 @@
 -->
 				</div>
 			</div>
-			<!--/ハンバーガメニュー-->
+		<!--/ハンバーガメニュー-->
+				<h2>言語化相談窓口</h2>
+				<p>個人や組織の成長を「言葉の力」によって支援します。</p>
+				
 			<?php else: ?>
 			<h2>言語化相談窓口</h2>
 			<p>個人や組織の成長を「言葉の力」によって支援します。</p>
