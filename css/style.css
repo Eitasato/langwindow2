@@ -288,8 +288,14 @@ header p{
 }
 
 .menu_process{
-
+ padding:0 5%;
 }
+
+.menu_process p{
+  /*padding:0 5%;*/
+	
+}
+
 
 .menu_process h4{
   text-align: left;
@@ -552,12 +558,13 @@ justify-content: space-between;
 
 #other div.price_item{
   width:100%;
+  padding:0 5%;
 }
 
 #other div.price_item h4{
   margin-top: 1.5em;
 }
-	
+
 	
 /*/トップ以外のメインエリア*/
 	
